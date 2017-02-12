@@ -1,0 +1,25 @@
+   {
+     "version": "1.0.0-*",
+     "buildOptions": {
+       "debugType": "portable",
+       "emitEntryPoint": true
+     },
+     "dependencies": {
+        "Microsoft.NETCore.Runtime.CoreCLR": "1.1.0",
+        "Microsoft.NETCore.DotNetHostPolicy":  "1.1.0",
+        "Microsoft.AspNetCore.Server.Kestrel": "1.1.0",
+        "Microsoft.Extensions.Logging.Console": "1.1.0",
+        "Microsoft.Extensions.Configuration.FileExtensions": "1.1.0",
+        "Microsoft.Extensions.Configuration.Json": "1.1.0",
+        "Microsoft.Extensions.Configuration.CommandLine": "1.1.0"
+     },
+     "frameworks": {
+       "netstandard1.6": { }
+     },
+     "runtimes": {
+       "win7-x64": {},
+       "osx.10.10-x64": {},
+       "ubuntu.14.04-x64": {},
+       "debian.8-x64": {}
+     }
+   }
