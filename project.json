@@ -5,6 +5,7 @@
        "emitEntryPoint": true
      },
      "dependencies": {
+        "NETStandard.Library": "1.6.1",
         "Microsoft.NETCore.Runtime.CoreCLR": "1.1.0",
         "Microsoft.NETCore.DotNetHostPolicy":  "1.1.0",
         "Microsoft.AspNetCore.Server.Kestrel": "1.1.0",
